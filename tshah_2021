@@ -1,0 +1,20 @@
+gamer1 = input("Pick a option(rock,paper,scissors):")
+gamer2 = input("Pick a option(rock,paper,scissors):")
+print(f"\ngamer1 chose {gamer_1}, gamer2 chose {gamer_2}.\n")
+if gamer1 == gamer2:
+    print("Both players selecter {gamer1}. Same choice!")
+elif gamer1 == 'rock':
+    if gamer2 =='scissors':
+        print("rock smash scissors! winner!")
+    else:
+        print('paper cover rock! Sorry!')
+elif gamer1 == "paper":
+    if gamer2 == "rock":
+        print("Paper covers rock! winner!")
+    else:
+        print("scissor cuts paper! Sorry!")
+elif gamer1 =='scissors':
+    if gamer2 =='paper':
+        print("scissors cuts paper! winner!")
+    else:
+        print("Rock smashes scissor! Sorry!")
